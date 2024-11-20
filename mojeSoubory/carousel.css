@@ -1,0 +1,34 @@
+.carousel .carousel-indicators li {
+    background-color: #a8c42c; /* Change the default color */
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #0d6efd; 
+    /* Change the active indicator color */
+    
+}
+  
+  /* Customize carousel controls */
+  .carousel-control-prev-icon {
+    filter: invert(1);
+    position: relative;
+    left: -8vw; /* Invert the icons to make them blue */
+  }
+
+  .carousel-control-next-icon {
+    filter: invert(1);
+    position: relative;
+    right: -8vw; /* Invert the icons to make them blue */
+  }
+  
+  /* Adjust the position of the controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%; /* Adjust the vertical position */
+    transform: translateY(-50%); /* Center the controls vertically */
+  }
+  
+  /* Add some padding to the carousel container */
+  .container-sm {
+    padding: 20px;
+  }

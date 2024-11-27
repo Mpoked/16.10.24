@@ -15,6 +15,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url("hraci"); ?>">Hraci</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="<?= base_url("polaci"); ?>">Polaci</a>
+              </li>
             </ul>
           </div>
         </div>

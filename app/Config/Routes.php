@@ -11,3 +11,4 @@ $routes->get("tabulka", "Main::tabulka");
 $routes->get("carousel", "Main::carousel");
 $routes->get("hraci", "Main::hraci");
 $routes->get("polaci", "Main::polaci");
+$routes->get("polaci2", "main::polaci2");
